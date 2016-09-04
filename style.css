@@ -1,0 +1,87 @@
+body{
+  background-color: #b2e1ff;
+}
+.title{
+  width:50%;
+  margin-right:25%;
+  margin-left:25%;
+  margin-top: 10%;
+  text-align: center;
+  color: red;
+}
+
+#info{
+  height:auto;
+  width:50%;
+  margin-right:25%;
+  margin-left:25%;
+  border-radius: 25px;
+  background: white;
+  color: #207cca;
+}
+#author{
+  text-align: right;
+  margin-top: 5%;
+  padding-right: 10%;
+  margin-bottom: 5%;
+  font-weight: 250;
+  font-size: 1.35em;
+}
+#quote{
+  padding-top: 5%;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.75em;
+  font-family: 'Raleway', sans-serif;
+}
+
+#btnGenerateQuote{
+  text-align: center;
+  margin-bottom: 0%;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+  font-family: serif;
+  font-size: 1.35em;
+  background: #b2e1ff;
+}
+
+#createdBy{
+  height:auto;
+  width:70%;
+  margin-right:15%;
+  margin-left:15%;
+  margin-top: 2%;
+  text-align: center;
+}
+#createdBy p{
+  margin-top: 3%;
+  font-weight: bold;
+  color: blue;
+}
+#createdBy p small{
+  font-weight: bold;
+  color: red;
+}
+
+.buttons .button#tweet-quote, .buttons .button#tumblr-quote {
+    padding: 5%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 2.8em;
+    margin-right: 5px;
+    height: 25%;
+    width: 25%;
+    color: white;
+    background-color:#b2e1ff;
+    cursor: pointer;
+}
+
+.link-social{
+  cursor: pointer;
+  font-size: 2em !important;
+  margin-left: 2%;
+  color: #b2e1ff;
+}
